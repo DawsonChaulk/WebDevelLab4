@@ -1,0 +1,15 @@
+print("=============================================================")
+print()
+print("Registration Form")
+print()
+First_name = input("First Name:\t")
+Last_name = input("Last Name:\t")
+Birth_year = input("Birth Year:\t")
+print()
+full_name = First_name + " " + Last_name +"!"
+print("Welcome ",full_name)
+print("Your Regeistration is complete!")
+temp_pass = First_name + "*" + Birth_year
+print("Your temporary password is:  ", temp_pass)
+print()
+print("=============================================================")
